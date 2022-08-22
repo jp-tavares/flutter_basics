@@ -12,7 +12,7 @@ class Answer extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton(
         child: Text(answerText),
-        onPressed: selectHandler,
+        onPressed: selectHandler as VoidCallback,
       ),
     );
   }
